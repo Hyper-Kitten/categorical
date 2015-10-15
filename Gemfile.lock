@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    categorical (0.0.2)
+    categorical (0.0.3)
       rails (~> 4.2.3)
 
 GEM
