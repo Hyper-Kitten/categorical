@@ -1,0 +1,12 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+
+development:
+  <<: *default
+  database: categorical_development
+test:
+  <<: *default
+  database: categorical_test
+
