@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     categorical (0.0.3)
-      rails (~> 4.2.3)
+      rails (>= 4.1)
 
 GEM
   remote: https://rubygems.org/
@@ -46,11 +46,6 @@ GEM
     builder (3.2.2)
     coderay (1.1.0)
     erubis (2.7.0)
-    factory_girl (4.5.0)
-      activesupport (>= 3.0.0)
-    factory_girl_rails (4.5.0)
-      factory_girl (~> 4.5.0)
-      railties (>= 3.0.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
@@ -120,7 +115,6 @@ PLATFORMS
 
 DEPENDENCIES
   categorical!
-  factory_girl_rails
   minitest-rails
   pg
   pry-rails
