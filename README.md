@@ -47,7 +47,7 @@ post2.tags << tag2
 post3.tags << [tag1, tag2]
 ```
 
-You can also tagged items from a given tag.
+You can also get tagged items from a given tag.
 
 ```ruby
 tag = Categorical::Tag.create!(label: 'Ruby')
