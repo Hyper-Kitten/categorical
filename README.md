@@ -46,6 +46,24 @@ post.tags << tag
 post2.tags << tag2
 post3.tags << [tag1, tag2]
 ```
+
+You can also tagged items from a given tag.
+
+```ruby
+tag = Categorical::Tag.create!(label: 'Ruby')
+tag2 = Categorical::Tag.create!(label: 'Haskell')
+
+post = Post.create!(title: 'Ruby Composition')
+post2 = Post.create!(title: 'Haskell Style')
+post3 = Post.create!(title: 'What Haskell can Teach Us About Ruby')
+
+post.tags << tag
+post2.tags << tag2
+post3.tags << [tag, tag2]
+
+tag.posts == [post, post3] # true
+```
+
 ### Customizing the Categorical::Tag Model
 
 Sometimes you want to make changes to or add onto the Categorical::Tag model. To do this create the following file in your application:
