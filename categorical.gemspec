@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Categorical::VERSION
   s.authors     = ["Josh Klina"]
   s.email       = ["joshua.klina@gmail.com"]
-  s.homepage    = "http://joshklina.com"
+  s.homepage    = "https://github.com/jklina/categorical"
   s.summary     = "Provides basic tagging for Rails applications"
   s.description = "Categorical allows for any Rails model to become taggable and provides utility methods for managing tags and taggables."
   s.license     = "MIT"
