@@ -1,3 +1,3 @@
 module Categorical
-  VERSION = "0.0.8.rc"
+  VERSION = "0.0.9.rc"
 end
