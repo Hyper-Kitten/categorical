@@ -16,7 +16,8 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.required_ruby_version = Gem::Requirement.new('>= 2.0.0')
-  s.add_dependency "rails", "~> 6.0"
+  s.add_dependency "rails", "~> 6.1"
+  s.add_dependency "tzinfo-data"
 
   s.add_development_dependency "pg"
 end
