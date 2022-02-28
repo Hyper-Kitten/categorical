@@ -1,4 +1,4 @@
-FROM ruby:2.7.2-alpine
+FROM ruby:3.1.1-alpine
 
 RUN apk update && apk add less build-base postgresql-dev chromium chromium-chromedriver
 
