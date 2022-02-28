@@ -1,6 +1,6 @@
 FROM ruby:3.1.1-alpine
 
-RUN apk update && apk add less build-base postgresql-dev chromium chromium-chromedriver
+RUN apk update && apk add less build-base postgresql-dev chromium chromium-chromedriver gcompat
 
 RUN mkdir /app
 WORKDIR /app
