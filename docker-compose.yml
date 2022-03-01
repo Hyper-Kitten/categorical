@@ -19,7 +19,4 @@ services:
       - '3000:3000'
     volumes:
       - '.:/app'
-      - type: bind
-        source: $HOME/.gitconfig
-        target: /etc/gitconfig
 
