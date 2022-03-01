@@ -30,8 +30,8 @@ module Categorical
 
           klass.where(id: klass_instance_ids)
 
-          rescue NameError
-            super
+        rescue NameError
+          super
         end
       end
     end
