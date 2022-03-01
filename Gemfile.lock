@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    categorical (0.0.9)
+    categorical (0.0.10)
       rails (~> 7.0.2)
       tzinfo-data
 
@@ -91,7 +91,6 @@ GEM
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    mini_portile2 (2.8.0)
     minitest (5.15.0)
     net-imap (0.2.3)
       digest
@@ -109,8 +108,7 @@ GEM
       net-protocol
       timeout
     nio4r (2.5.8)
-    nokogiri (1.13.3)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.13.3-aarch64-linux)
       racc (~> 1.4)
     pg (1.2.1)
     racc (1.6.0)
