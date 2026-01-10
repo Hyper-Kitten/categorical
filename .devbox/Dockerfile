@@ -1,11 +1,11 @@
-FROM ruby:3.1.1-alpine
+FROM ruby:4.0.0-alpine
 
-RUN apk update && apk add less build-base postgresql-dev chromium chromium-chromedriver gcompat git
+RUN apk update && apk add less build-base postgresql-dev chromium chromium-chromedriver gcompat git yaml-dev
 
 RUN mkdir /app
 WORKDIR /app
 
-COPY categorical.gemspec Gemfile Gemfile.lock ./
+COPY categorical.gemspec Gemfile ./
 COPY ./lib/categorical/version.rb ./lib/categorical/
 RUN bundle install
 
